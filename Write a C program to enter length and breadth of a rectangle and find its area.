@@ -1,0 +1,28 @@
+ Write a C program to enter length and breadth of a rectangle and find its area.
+ #include<stdio.h>
+int main(){
+    int length,bredth,Area;
+    printf("Enter the length:\n");
+    scanf("%d",&length);
+    printf("Enter the breadth:\n");
+    scanf("%d",&bredth);
+    Area=length*bredth;
+    printf("the Area is %d",Area);
+    return 0;
+
+
+}
+
+Write a C program to enter radius of a circle and find its diameter, circumference and area.
+int main(){
+    int radius,diameter,circumference,area;
+    printf("enter the radius:\n");
+    scanf("%d",&radius);
+    diameter=2*radius;
+    printf("the diameter of circle is %d\n",diameter);
+    circumference=2*3.14*radius;
+    printf("the circumference of circle is %d\n",circumference);
+    area=3.14*radius*radius;
+    printf("The area of circle is %d \n",area);
+
+}
